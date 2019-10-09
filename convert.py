@@ -7,7 +7,7 @@ try:
     src_dir = sys.argv[1]
     dst_dir = sys.argv[2]
 except IndexError:
-    print("You must supply a valid source and destination directory: convert-to-png.py <source directory> <destination directory>")
+    print("You must supply a valid source and destination directory: convert.py <source directory> <destination directory>")
     sys.exit(2)
 
 for filename in os.listdir(src_dir):
